@@ -1,0 +1,232 @@
+.Hero{
+    background-image: url('	https://preview.colorlib.com/theme/florist/img/hero/hero-2.jpg ');
+    background-size: cover;
+    min-height: 500px;
+    background-repeat: no-repeat;
+   display: flex;
+    align-items: center;
+    .Hero_container{
+        display: flex;
+        align-items: center;
+        max-width: 600px;
+      .Hero_container_div{
+        display: flex;
+       flex-direction: column;
+       justify-content: center;
+       max-width: 380px;
+       .Hero_container_div_text{
+        margin-left: 20px;
+         .Hero_container_div_text1{
+            margin-bottom: 20px;
+            font-size: 24px;
+         }
+         .Hero_container_div_text2{
+            margin-bottom: 20px;
+            font-size: 45px;
+         }
+          .Hero_container_div_button{
+            border-radius: 6px;
+            height: 30px;
+            width: 100px;
+            background-color: rgb(163, 6, 124);
+            border: none;
+           color: white;
+           font-weight: 700;
+           &:hover{
+            cursor: pointer;
+           }
+         }
+       }
+      }
+    }
+}
+.Middlesection{
+    max-width: 2500PX;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    
+    .Middlesection_card_container{
+        max-width: 1500px;
+        flex-wrap: wrap;
+        display: flex;
+        gap: 20px;
+         .middlesection_card{
+            max-width: 250px;
+            display: flex;
+            img{
+              width: 45px;
+              height: 45px;
+            }
+            .middlesection_card_text{
+                margin-left: 20px;
+                max-width: 200px;
+                .middlesection_card_text1{
+                     height: 45px;
+                     display: flex;
+                     align-items: center;
+                      font-size: 22px;
+                      margin-bottom: 30px;
+
+                    }
+                      .middlesection_card_text2{
+                        min-height: 100px;
+                        font-size: 22px;
+                        max-width: 160px;
+                      }
+            }
+         }
+    }
+}
+ .Thirdsection{
+    max-width: 2500px;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+    .Thirdsection_container{
+        max-width: 1100px;
+        display: flex;
+        justify-content: center;
+        .Thirdsection_container_div{
+            display: flex;
+            gap: 20px;
+            .Thirdsection_container_div_img1{
+                background-image: url("https://preview.colorlib.com/theme/florist/img/categories/categories-1.jpg");
+                background-size: cover;
+                 height: 400px;
+            
+                 width: 200px;
+                 display: flex;
+                 justify-content: center;
+                 align-items: end;
+                  background-repeat: no-repeat;
+                  .Thirdsection_container_div_box{
+              
+                    display: flex;
+                    width: 160px;
+                    height: 40px;
+                    align-items: center;
+                    margin-bottom: 10px;
+                    background-color: white;
+                    flex-direction: column;
+
+                }
+                
+            }
+            .Thirdsection_container_div_img2{
+                background-image: url("https://preview.colorlib.com/theme/florist/img/categories/categories-2.jpg");
+                background-size: cover;
+             height: 400px;
+               width: 200px;
+               display: flex;
+               justify-content: center;
+               align-items: end;
+              background-repeat: no-repeat;
+              .Thirdsection_container_div_box{
+              flex-direction: column;
+                display: flex;
+                width: 160px;
+                height: 40px;
+                align-items: center;
+                margin-bottom: 10px;
+                background-color: white;
+            }
+            }
+            .Thirdsection_container_div_img3{
+                background-image: url("https://preview.colorlib.com/theme/florist/img/categories/categories-3.jpg");
+                background-size: cover;
+              height: 400px;
+              
+           width: 200px;
+                background-repeat: no-repeat;
+                display: flex;
+              justify-content: center;
+              align-items: end;
+                .Thirdsection_container_div_box{
+              
+                    display: flex;
+                    flex-direction: column;
+                    width: 160px;
+                    height: 40px;
+                    align-items: center;
+                    margin-bottom: 10px;
+                    background-color: white;
+                }
+            }
+            .Thirdsection_container_div_img4{
+                background-image: url("https://preview.colorlib.com/theme/florist/img/categories/categories-4.jpg");
+                background-size: cover;
+              height: 400px;
+             
+              width: 200px;
+              background-repeat: no-repeat;
+              display: flex;
+              justify-content: center;
+              align-items: end;
+              .Thirdsection_container_div_box{
+              
+                  display: flex;
+                  flex-direction: column;
+                  width: 160px;
+                  height: 40px;
+                  align-items: center;
+                  margin-bottom: 10px;
+                  background-color: white;
+              }
+            }
+        }
+    }
+ }
+.fiveth{
+    max-width: 2500px;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+
+    .fiveth_card_container{
+        max-width: 1000px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        .fiveth_card_container_item1{
+            font-size: 16px;
+            color: darkorchid;
+        }
+        .fiveth_card_container_item2{
+            font-size: 32px;
+        }
+        .fiveth_card_container_item3{
+            display: flex;
+            max-width: 600px;
+          gap: 20px;
+          margin-bottom: 50px;
+          .Divvvv{
+            &:hover{
+                cursor: pointer;
+            }
+          }
+        }
+        .Card_container{
+            max-width: 1000px;
+        display: flex;
+        
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        .fiveth_card{
+          max-width: 300px;
+          min-height: 300px;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          .fiveth_card_img{
+            max-width: 300px;
+          }
+        }
+        }
+    }
+}
